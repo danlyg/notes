@@ -1,4 +1,4 @@
- Prework Quiz
+#Prework Quiz
 
 **1) In terminal, a `$` indicates that:**
 
@@ -91,15 +91,16 @@ y === y;
  *(A)*
 
  **10) Again, evaluate the above statement. What is the value of `y === y`?**
-
+```
  A) true
  B) false
  C) null
  D) error, "y is not defined"
+````
 
  *(D)*
 
- ```
+```
  var age = 32;
  if (age < 21) {
    console.log('Come back when you are older!');
@@ -108,7 +109,8 @@ y === y;
      } else {
        console.log('No need to card you, right this way!');
        }
-       ```
+```
+
 **11) What will `console.log` print out if age is 32?**
 
        A) Come back when you are older!
@@ -128,12 +130,12 @@ y === y;
  *(C)*
 
  **13) A `for` loop contains three parts which are seperated by `;`. What does the second part of a `for` loop do?**
-
+```
  A) sets the final expression
  B) initializes a counter
  C) is a condition that determines whether whether to execute the code block
  D) none of the above
-
+```
  *(C)*
 
 ```
@@ -146,7 +148,7 @@ function myFunction(x) {
 		return x - 1;
 	}
 }
-		    ```
+ ```
 
 **14) What value will be returned from the function above when x is equal to 25?**
 
@@ -158,12 +160,12 @@ function myFunction(x) {
   *(B)*
 
  **15) What value will be returned from the function above when x is equal to 10?**
-
+```
  A) 25
  B) 24
  C) 9
  D) 10
-
+```
  *(C)*
 
 ```
@@ -172,21 +174,21 @@ function anotherFunction(x, y) {
   }
   ```
   **16) How would we call the above function to compare 10 and 20?**
-
+```
   A) anotherFunction(x, y)
   B) anotherFunction(10, 20)
   C) anotherFunction[10, 20]
   D) anotherFunction[x, y]
-
+```
  (B)
 
 **17) What would we expect to get back if, from the last question, we compared 10 and 20?**
-
+```
       A) true
       B) false
       C) 10
       D) 20
-
+```
 *(C)*
 
 ```
@@ -195,19 +197,19 @@ function cube(x) {
  	 return (x * square(x));
 	 }
 	 console.log(cube(2));
-	 ```
+```
 
 **18) What does the above code print to the console?**
-
+```
       A) 2
       B) 6
       C) 8
       D) 16
-
+```
  *(C)*
 
 
- ```
+```
   function totalUp(a, b, c) {
     var tot = a + b + c;
       if (tot > 0 ) {
@@ -215,15 +217,15 @@ function cube(x) {
 	    }
 	     }
 	      totalUp(2, 4, 6, 8);
-	       ```
+```
 
 **19) What would the above code evaluate to?**
-
+```
       A) 12
       B) 20
       C) 10
       D) 18
-
+```
  *(A)*
 
 **20) How might you write a function called `maxNumber` that gives us the biggest value from a set of four numbers?**
@@ -237,9 +239,11 @@ function maxNumber(a, b, c, d) {
 	})
 	return array[array.length-1];
 }
-	    ```
-	    or
-	    ```
+```
+
+or
+
+```
 function maxNumber(a, b, c, d) {
 	if (a >= b && a >= c && a >= d) {
 		 return a;
@@ -251,7 +255,7 @@ function maxNumber(a, b, c, d) {
 		return d;
 	}
 }
-				      ```
+```
 
 **21) In JavaScript, how would we access the second element in an array called `myArray`?**
 
@@ -261,7 +265,6 @@ function maxNumber(a, b, c, d) {
       D) myArray(1)
 
  *(C)*
-
 ```
 var fruits = ['apple', 'orange', 'banana'];
 fruits.pop();
@@ -281,7 +284,7 @@ fruits.push('banana');
 
 ```
 	var ages = [26, 28, 30, 28, 17];
-	```
+```
 
 **23) What would `ages[2];` evaluate to?**
 
@@ -383,7 +386,7 @@ var twitterAccount = {
 			}
 		],
 }
-														    ```
+```														    
 
 **29) How would you access or drill down inside a large data structure? Declare a variable `followers` and assign it to the array of the accounts that follow wilw.**
 
