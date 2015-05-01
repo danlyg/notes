@@ -103,12 +103,12 @@ y === y;
 ```
  var age = 32;
  if (age < 21) {
-   console.log('Come back when you are older!');
-   } else if (age < 50) {
-     console.log('Thank you. Come on in.')
-     } else {
+ 	console.log('Come back when you are older!');
+ } else if (age < 50) {
+ 	console.log('Thank you. Come on in.');
+ } else {
        console.log('No need to card you, right this way!');
-       }
+ }
 ```
 
 **11) What will `console.log` print out if age is 32?**
@@ -194,9 +194,9 @@ function anotherFunction(x, y) {
 ```
 function square(x) { return (x * x ) }
 function cube(x) {
- 	 return (x * square(x));
-	 }
-	 console.log(cube(2));
+	return (x * square(x));
+}
+console.log(cube(2));
 ```
 
 **18) What does the above code print to the console?**
@@ -211,12 +211,12 @@ function cube(x) {
 
 ```
   function totalUp(a, b, c) {
-    var tot = a + b + c;
-      if (tot > 0 ) {
-          return tot;
-	    }
-	     }
-	      totalUp(2, 4, 6, 8);
+  	var tot = a + b + c;
+  	if (tot > 0 ) {
+  		return tot;
+  	}
+  }
+  totalUp(2, 4, 6, 8);
 ```
 
 **19) What would the above code evaluate to?**
@@ -409,5 +409,7 @@ Answer:
 ```
 var totalTweets = twitterAccount.tweets.length;
 ```
-
-
+or
+```
+var totalTweets = twitterAccount['tweets'].length;
+```
